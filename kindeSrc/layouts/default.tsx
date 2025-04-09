@@ -20,8 +20,8 @@ const styles: {
 export const DefaultLayout = (props: { children: React.ReactNode }) => {
   return (
     <div style={styles.container}>
-      {props.children}
       <div style={styles.sidePanel}></div>
+      {props.children}
     </div>
   );
 };
