@@ -41,4 +41,8 @@ export const getStyles = (): string => `
     width: 3rem;
     height: 3rem;
   }
+
+  [data-kinde-control-label] {
+    color: #fff;
+  }
 `;
